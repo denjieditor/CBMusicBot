@@ -9,7 +9,7 @@ load_dotenv()
 que = {}
 admins = {}
 SESSION_NAME = getenv("SESSION_NAME", "BQGPeTAAoSBZE9dECVktyt8bRaRyIJ3MaWTPOclLsT263H3eclVDVLaMT9kJb2xloH2NfXQBmfGEpQRnLIHUftTgTUlYSmT_Kaur30uXbPnINGitt3Vm7NRtz2lD79Mnq6nXmIn_H_N8FApYy3TlMNrt3BofFc9ujb3kLMx3yvt2L_wnRA_yAnVkHxboAGx1ZaWp29AQVtzeFxNGhq82tiMx8lordxpUoTKsIAks-aGz3WEU6ezwSs1y2QLnZKhyZ3qOHUuB4_9c_GBEAWUM2oOPGz5LEO6L-w6y4oDVBc37hg11Ljp8SoLD37Vyf-VSX6G_L1AL_wTEO7odoob8tLixoH0oEwAAAAHMd5hzAQ")
-BOT_TOKEN = getenv("7725357171:AAHUrKr0gXQ6QO5PmXxwHOuCY3aAb-HF4AY")
+BOT_TOKEN = getenv("7725357171:AAEM1T16TbfLJ0zYYBUNqPWLRBojDOdu_VU")
 BOT_NAME = getenv("BOT_NAME", "🆁🅸🅺🅰乂𝓜𝓾𝓼𝓲𝓬🎵")
 BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/6790864f5fe27471bdc8d.png")
 THUMB_IMG = getenv("THUMB_IMG", "https://telegra.ph/file/e9a4d6655e5ddf51f9160.jpg")
