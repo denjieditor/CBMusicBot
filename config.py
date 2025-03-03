@@ -28,6 +28,12 @@ DATABASE_URL = os.environ.get("mongodb+srv://denji:@denji.0qi3h.mongodb.net/?ret
 LOG_CHANNEL = int(os.environ.get("-1002304722288")) # make a private channel and get the channel id
 BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False)) # just fill with True or False (optional)
 DURATION_LIMIT = int(getenv("0.0.0.0", "60"))
-COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
+COMMAND_PREFIXES = list(getenv("/play <song name> - play song you requested
+/playlist - Show now playing list
+/song <song name> - download songs you want quickly
+/search <query> - search videos on youtube with details
+/vsong <song name> - download videos you want quickly
+/lyric <song name> - lyrics scrapper
+/vk <song name> - generate song without download", "/ ! .").split())
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 LANG = getenv("all", "42408")
